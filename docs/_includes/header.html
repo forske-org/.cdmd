@@ -1,0 +1,17 @@
+<header class='header__container'>
+    <a class='header__brand' href='https://app.forske.org'>
+        <img class='header__logo'
+            src='https://app.forske.org/logo.white.svg'
+            alt='logo'/>
+        <div class='header__title'>
+            <h1 class='header__title__name'>FORSKE</h1>
+            <h4 class='header__title__translation'><i>(research)</i></h4>
+            <h4 class='header__title__meaning'>: to continue with examined care</h4>
+        </div>
+    </a>
+    <nav class='header__navigator'>
+        {% for item in site.data.pageLinks %}
+        <a href='{{ item.url }}'>{{ item.title }}</a>
+        {% endfor %}
+    </nav>
+</header>

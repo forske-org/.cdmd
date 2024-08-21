@@ -1,0 +1,20 @@
+<footer class='footer__container'>
+    <p class='footer__acknowledgement'>We acknowledge the traditional custodians of the land and pay respects to elders past, present, and emerging</p>
+    <div class='footer__links'>
+        {% for item in site.data.footerLinks %}
+        <a target='_blank'
+            href='{{ item.href }}'>
+            {{ item.title }}
+        </a>
+        {% endfor %}
+    </div>
+    <div class='footer__social'>
+        {% for item in site.data.socialLinks %}
+        <a target='_blank'
+            href='{{ item.href }}'>
+            <img src='{{ item.img }}'
+                alt='{{ item.alt }}'/>
+        </a>
+        {% endfor %}
+    </div>
+</footer>

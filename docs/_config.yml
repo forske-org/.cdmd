@@ -1,0 +1,27 @@
+# Metadata
+title: Forske | CDMD
+description: |
+  This resource is designed to be used by technical staff looking to contribute to or integrate with the Forske.rog developed technical solutions.
+# Where things are
+# Plugins
+plugins: []
+whitelist: []
+# Enable safe mode
+safe: true
+# Collections
+# collections:
+#   developers:
+#     output: true
+# Parsing
+lsi: false
+incremental: false
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  syntax_highlighter: rouge
+mermaid: true
