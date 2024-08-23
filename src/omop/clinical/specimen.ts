@@ -1,0 +1,3 @@
+export declare type Specimen = {
+
+}
